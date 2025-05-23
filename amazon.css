@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+ body{
+    background-color: #e3e6e6;
+ }
+
+ .navbar{
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ /* box 1 */
+
+ .nav-logo{
+    height: 45px;
+    width: 90px;
+ }
+ 
+ .logo{
+    background-image: url(Amazon-Logo.webp);
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+ }
+
+ .border{
+    border: 1.5px solid transparent;
+ }
+
+ .border:hover{
+    border: 1.5px solid white;
+ }
+
+ /* box 2 */
+
+ .loc-logo{
+  display: flex;
+ }
+
+ .loc1{
+  color: #CCCCCC;
+  font-size: 0.75rem;
+  margin-left: 15px;
+ }
+
+ .loc2{
+  font-size: 0.875rem;
+  margin-left: 3px;
+ }
+
+ /* box 3 */
+
+ .search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(242, 166, 0);
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+ }
+
+ .search:hover{
+    border: 2px solid orange;
+ }
+
+ .select{
+    background-color: #E6E6E6;
+    width: 52px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+ }
+
+ .input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+ }
+
+ .search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    color: #000000;
+ }
+
+ /* box 4 */
+
+ .flag{
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    height: 16px;
+    width: 22px;
+ }
+
+ .nation{
+    display: flex;
+ }
+
+ /* box 5,6 */
+
+ .same1{
+  font-size: 0.75rem;
+ }
+
+ .same2{
+    font-size: 0.9rem;
+    font-weight: 700
+ }
+
+ /* box 6 */
+
+ .cart{
+    display: flex;
+    font-weight: 700;
+ }
+
+ .cart-icon i{
+    font-size: 28px;
+ }
+
+ .cart-icon{
+    font-size: 0.9rem;
+ }
+
+ /* panel */
+
+ /* box 1 */
+
+ .panel{
+   height: 40px;
+   background-color: #232F3E;
+   display: flex;
+   align-items: center;
+   color: white;
+   justify-content: space-evenly;
+   font-size: 14px;
+ }
+
+ .panel-all{
+   color: white;
+   font-weight: 700;
+ }
+
+ /* .panel-ops{            alternate
+   display: flex;
+ } */
+
+ .panel-ops p{
+   display: inline;
+   padding-left: 8px;
+   padding-right: 8px;
+ }
+
+ .panel-ops{
+   width: 92%;
+ }
+
+ /* home section */
+
+ .home-section{
+   position: relative;
+   background-image: url(home-bg.jpg);
+   height: 550px;
+   width: 100%;
+   background-size: cover;
+ }
+
+ .home-section::after{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 40%;
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(227, 230, 230, 1) 90%);
+ }
+
+ /* categorys */
+
+ a{
+   text-decoration: none;
+   color: #2162A1;
+   font-size: 13px;
+ }
+
+ h3{
+   font-size: 20px;
+ }
+
+ .box{
+   height: 385px;
+   width: 22%;
+   background-color: white;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   margin-bottom: 25px;
+ }
+
+ .category{
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: -320px;
+ }
+
+ .box2-content{
+   height: 100%;
+   padding-left: 8%;
+   padding-right: 8%;
+ }
+
+ .gaming-img{
+   background-image: url(gaming-img.jpg);
+   background-size: cover;
+   height: 80%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+   background-position-x: -60px;
+ }
+
+ .box4-content{
+   height: 100%;
+   padding-left: 8%;
+   padding-right: 8%;
+ }
+
+ .office-img{
+   background-image: url(office-img.jpg);
+   background-size: cover;
+   height: 80%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+   background-position-x: -60px;
+ }
+
+ .box1-content{
+   height: 100%;
+   padding-left: 8%;
+   padding-right: 8%;
+ }
+
+ .game-acces-img{
+   height: 80%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+   background-position-x: -60px;
+ }
+
+ .img1{
+   background-size: cover;
+   height: 115px;
+   width: 110px;
+   background-position-x: -40px;
+ } 
+
+ .set1{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .set2{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .acces-name{
+   margin-bottom: 20px;
+ }
+
+ .acces-name p{
+   display: inline;
+   font-size: 12px;
+ }
+
+ #headset{
+   padding-right: 74px;
+ }
+
+ #mouse{
+   padding-right: 84px;
+ }
+
+ .headset{
+   background-image: url(headset.jpg);
+ }
+
+ .keyboard{
+   background-image: url(keyboard.jpg);
+ }
+
+ .mouse{
+   background-image: url(mouse.jpg);
+ }
+
+ .chair{
+   background-image: url(chair.jpg);
+ }
+
+ .box3-content{
+      height: 100%;
+      padding-left: 8%;
+      padding-right: 8%;
+ }
+
+ .img3{
+   background-size: cover;
+   height: 105px;
+   width: 110px;
+   background-position-x: -40px;
+ }
+
+ .home-essent-img{   
+   height: 80%;
+   margin-top: 5%;
+   margin-bottom: -3%;
+   background-position-x: -60px;
+ }
+
+ #tools{
+   padding-right: 40px;
+ }
+
+ #decor{
+   padding-right: 54px;
+ }
+
+ .tool{
+   background-image: url(tools.jpg);
+ }
+
+ .storage{
+   background-image: url(storage.jpg);
+ }
+
+ .decor{
+   background-image: url(decor.jpg);
+ }
+
+ .bedding{
+   background-image: url(bedding.jpg);
+ }
+
+ .fashion-img{
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  background-position-x: -60px;
+ }
+
+ .img5{
+  background-size: cover;
+   height: 115px;
+   width: 110px;
+   background-position-x: -40px;
+ }
+
+ #jeans{
+  padding-right: 85px;
+ }
+
+ #dresses{
+  padding-right: 74px;
+ }
+
+ .jeans{
+  background-image: url(jeans.jpg);
+ }
+
+ .tops{
+  background-image: url(tops.jpg);
+ }
+
+ .dresses{
+  background-image: url(dresses.jpg);
+ }
+
+ .shoes{
+  background-image: url(shoes.jpg);
+ }
+
+
+ .celebrate-img{
+  background-image: url(celebrate.jpg);
+  background-size: cover;
+  height: 74%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  background-position-x: -60px;
+ }
+
+
+ .corner-img{
+  background-image: url(corner.jpg);
+  background-size: cover;
+  height: 80%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  background-position-x: -60px;
+ }
+
+
+
+ #women{
+  padding-right: 76px;
+ }
+
+ #girls{
+  padding-right: 94px;
+ }
+
+ .women{
+  background-image: url(women.jpg);
+ }
+
+ .men{
+  background-image: url(men.jpg);
+ }
+
+ .girls{
+  background-image: url(girls.jpg);
+ }
+
+ .boys{
+  background-image: url(boys.jpg);
+ }
+
+
+ .last-box{
+  background-color: white;
+  height: 240px;
+  width: 92%;
+  padding: 20px;
+  margin-bottom: 25px; 
+ }
+ 
+
+ .last-content p{
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-bottom: 25px;
+ }
+
+ .last-img{
+  display: flex;
+  background-size: cover;
+  height: 200px;
+  justify-content: space-evenly;
+ }
+
+ .sell1{
+  background-image: url(sell1.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+ }
+
+ .sell2{
+  background-image: url(sell2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 130px;
+ }
+
+ .sell3{
+  background-image: url(sell3.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 360px;
+ }
+
+ .sell4{
+  background-image: url(sell4.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+ }
+
+ .sell5{
+  background-image: url(sell5.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 120px;
+ }
+
+
+ .back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #37475A;
+  color: white;
+ }
+
+ .credit{
+  height: 380px;
+  width: 100%;
+  background-color: #232f3E;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ ul{
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+ }
+
+ .credit a{
+  display: block;
+  color: #dddddd;
+  font-size: 0.8rem;
+  margin-top: 12px;
+ }
+
+
+ .relogo{
+  height: 80px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ .am-logo{
+  background-image: url(Amazon-Logo.webp);
+  background-size: cover;
+  height: 50px;
+  width: 80px;
+ }
